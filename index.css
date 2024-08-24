@@ -1,0 +1,47 @@
+body{
+  background-image: url(https://www.fabmood.com/wp-content/uploads/2024/03/floral-wallpaper-5.jpg);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+}
+
+.display{
+  font-size: 90px;
+  padding: 50px;
+  font-weight: bold;
+  color: rgb(212, 197, 197);
+  text-shadow: 2px 2px 2px black;
+}
+
+.controls button{
+  font-size: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor:pointer;
+  opacity: 0.7;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.start-button:hover{
+  opacity: 1;
+}
+
+.stop-button:hover{
+  opacity: 1;
+}
+
+.reset-button:hover{
+  opacity: 1;
+}
+
